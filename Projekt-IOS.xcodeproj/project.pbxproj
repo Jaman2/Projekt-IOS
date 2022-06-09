@@ -386,6 +386,7 @@
 			currentVersion = DAB677672852042700712A0E /* Projekt-IOS-DB.xcdatamodel */;
 			path = "Projekt-IOS-DB.xcdatamodeld";
 			sourceTree = "<group>";
+			usesTabs = 0;
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */

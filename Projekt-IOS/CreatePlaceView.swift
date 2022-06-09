@@ -11,8 +11,38 @@ import SwiftUI
 //widok tworzenia nowego miejsca
 
 struct CreatePlaceView: View {
+    @State var tytul:String=""
+    @State var desc:String=""
+    @State var cordX:String=""
+    @State var cordY:String=""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    VStack{
+    Text("Dodaj miejsce").fontWeight(.bold)
+    .font(.title)
+    .multilineTextAlignment(.center)
+    TextField("Wprowadz tytul", text: $tytul)
+    .font(Font.system(size: 16))
+    .padding()
+    .background(RoundedRectangle(cornerRadius:30).fill(Color.white))
+    .foregroundColor(.blue)
+    TextField("Wprowadz opis", text: $desc)
+    .font(Font.system(size: 16))
+    .padding()
+    .background(RoundedRectangle(cornerRadius:30).fill(Color.white))
+    .foregroundColor(.blue)
+    TextField("Wprowadz koordynat X", text: $cordX)
+    .foregroundColor(Color.white)
+    .font(Font.system(size: 16))
+    .padding()
+    .background(RoundedRectangle(cornerRadius:30).fill(Color.white))
+    .foregroundColor(.blue)
+    TextField("Wprowadz koordynat Y", text: $cordY)
+    .font(Font.system(size: 16))
+    .padding()
+    .background(RoundedRectangle(cornerRadius:30).fill(Color.white))
+    .foregroundColor(.blue)
+
+    }
     }
 }
 

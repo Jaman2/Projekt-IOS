@@ -16,10 +16,19 @@ struct ContentView: View {
     @State private var showPlaces:Bool = false
     
     var body: some View {
-        NavigationView{
-            NavigationLink(
-            destination: PlacesView(),
-            label:{Text("Rozpocznij")})
+        VStack{
+            Text("Przewodnik po miescie Lublin").fontWeight(.bold)
+                .font(.title)
+                .multilineTextAlignment(.center);
+            Image("logo").resizable()
+            .   scaledToFit()
+                .padding()
+            Button(
+                action: {self.showPlaces.toggle()},
+                label: { Text("Rozpocznij") }
+            ).sheet(isPresented: $showPlaces) {
+                PlacesView()
+            }.padding(.top, 100)
         }
     }
 }

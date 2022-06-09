@@ -16,13 +16,17 @@ struct PlaceView: View {
     
     var body: some View {
         VStack{
-            Text(place.title!)
-            Text(place.subtitle!)
+            Text(place.title!).fontWeight(.bold)
+                .font(.title)
+                .multilineTextAlignment(.center)
+            Text(place.subtitle!).font(.body)
+                .multilineTextAlignment(.center)
+                .padding(.bottom,50)
             Button(
                 action: {self.showPlaceMap.toggle()},
                 label: { Text("Wyświetl mapę") }
             ).sheet(isPresented: $showPlaceMap) {
-                PlaceMapView(place: place)
+                PlaceMapView(place: self.place)
             }
         }
     }
