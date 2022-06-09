@@ -321,14 +321,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"jl_2022_06_02_projekt/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Projekt-IOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = jl_2022_06_02_projekt/Info.plist;
+				INFOPLIST_FILE = "Projekt-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "PL.jl-2022-06-02-projekt";
+				PRODUCT_BUNDLE_IDENTIFIER = "PL.Projekt-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,14 +340,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"jl_2022_06_02_projekt/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Projekt-IOS/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = jl_2022_06_02_projekt/Info.plist;
+				INFOPLIST_FILE = "Projekt-IOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "PL.jl-2022-06-02-projekt";
+				PRODUCT_BUNDLE_IDENTIFIER = "PL.Projekt-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

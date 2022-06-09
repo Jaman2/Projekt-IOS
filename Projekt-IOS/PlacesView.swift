@@ -35,6 +35,7 @@ struct PlacesView: View {
                            label: {Text("dodaj miejsce")})
         }
         }
+        .navigationBarHidden(true)
         
     }
 }

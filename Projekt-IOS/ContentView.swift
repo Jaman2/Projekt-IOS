@@ -17,15 +17,10 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView{
-        VStack{
             NavigationLink(
             destination: PlacesView(),
-            label:{
-                Text("Rozpocznij")
-            }
-            )
+            label:{Text("Rozpocznij")})
         }
-    }
     }
 }
 
