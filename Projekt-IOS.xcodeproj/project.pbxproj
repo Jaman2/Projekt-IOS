@@ -12,7 +12,6 @@
 		3FAA721828490BBF00C78735 /* PlaceMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA721728490BBF00C78735 /* PlaceMapView.swift */; };
 		3FDA39B8284900F8003B8298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA39B7284900F8003B8298 /* AppDelegate.swift */; };
 		3FDA39BA284900F8003B8298 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA39B9284900F8003B8298 /* SceneDelegate.swift */; };
-		3FDA39BD284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA39BB284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodeld */; };
 		3FDA39BF284900F8003B8298 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA39BE284900F8003B8298 /* ContentView.swift */; };
 		3FDA39C1284900FA003B8298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA39C0284900FA003B8298 /* Assets.xcassets */; };
 		3FDA39C4284900FA003B8298 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDA39C3284900FA003B8298 /* Preview Assets.xcassets */; };
@@ -20,16 +19,16 @@
 		3FDA39CF284901C1003B8298 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDA39CE284901C1003B8298 /* PlacesView.swift */; };
 		DAB677632851E58800712A0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB677622851E58800712A0E /* MapKit.framework */; };
 		DAB677652851F08B00712A0E /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB677642851F08B00712A0E /* Classes.swift */; };
+		DAB677682852042700712A0E /* Projekt-IOS-DB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAB677662852042700712A0E /* Projekt-IOS-DB.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3FAA72132849025000C78735 /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 		3FAA7215284902A400C78735 /* CreatePlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePlaceView.swift; sourceTree = "<group>"; };
 		3FAA721728490BBF00C78735 /* PlaceMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMapView.swift; sourceTree = "<group>"; };
-		3FDA39B4284900F8003B8298 /* jl_2022_06_02_projekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jl_2022_06_02_projekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDA39B4284900F8003B8298 /* Projekt-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projekt-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDA39B7284900F8003B8298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FDA39B9284900F8003B8298 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FDA39BC284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jl_2022_06_02_projekt.xcdatamodel; sourceTree = "<group>"; };
 		3FDA39BE284900F8003B8298 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3FDA39C0284900FA003B8298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDA39C3284900FA003B8298 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		3FDA39CE284901C1003B8298 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
 		DAB677622851E58800712A0E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DAB677642851F08B00712A0E /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		DAB677672852042700712A0E /* Projekt-IOS-DB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Projekt-IOS-DB.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,7 @@
 		3FDA39AB284900F8003B8298 = {
 			isa = PBXGroup;
 			children = (
-				DAB677642851F08B00712A0E /* Classes.swift */,
-				3FDA39B6284900F8003B8298 /* jl_2022_06_02_projekt */,
+				3FDA39B6284900F8003B8298 /* Projekt-IOS */,
 				3FDA39B5284900F8003B8298 /* Products */,
 				DAB677612851E58800712A0E /* Frameworks */,
 			);
@@ -65,14 +64,15 @@
 		3FDA39B5284900F8003B8298 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FDA39B4284900F8003B8298 /* jl_2022_06_02_projekt.app */,
+				3FDA39B4284900F8003B8298 /* Projekt-IOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FDA39B6284900F8003B8298 /* jl_2022_06_02_projekt */ = {
+		3FDA39B6284900F8003B8298 /* Projekt-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				DAB677642851F08B00712A0E /* Classes.swift */,
 				3FDA39B7284900F8003B8298 /* AppDelegate.swift */,
 				3FDA39B9284900F8003B8298 /* SceneDelegate.swift */,
 				3FDA39BE284900F8003B8298 /* ContentView.swift */,
@@ -83,10 +83,10 @@
 				3FDA39C0284900FA003B8298 /* Assets.xcassets */,
 				3FDA39C5284900FA003B8298 /* LaunchScreen.storyboard */,
 				3FDA39C8284900FA003B8298 /* Info.plist */,
-				3FDA39BB284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodeld */,
 				3FDA39C2284900FA003B8298 /* Preview Content */,
+				DAB677662852042700712A0E /* Projekt-IOS-DB.xcdatamodeld */,
 			);
-			path = jl_2022_06_02_projekt;
+			path = "Projekt-IOS";
 			sourceTree = "<group>";
 		};
 		3FDA39C2284900FA003B8298 /* Preview Content */ = {
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FDA39B3284900F8003B8298 /* jl_2022_06_02_projekt */ = {
+		3FDA39B3284900F8003B8298 /* Projekt-IOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FDA39CB284900FA003B8298 /* Build configuration list for PBXNativeTarget "jl_2022_06_02_projekt" */;
+			buildConfigurationList = 3FDA39CB284900FA003B8298 /* Build configuration list for PBXNativeTarget "Projekt-IOS" */;
 			buildPhases = (
 				3FDA39B0284900F8003B8298 /* Sources */,
 				3FDA39B1284900F8003B8298 /* Frameworks */,
@@ -120,9 +120,9 @@
 			);
 			dependencies = (
 			);
-			name = jl_2022_06_02_projekt;
+			name = "Projekt-IOS";
 			productName = jl_2022_06_02_projekt;
-			productReference = 3FDA39B4284900F8003B8298 /* jl_2022_06_02_projekt.app */;
+			productReference = 3FDA39B4284900F8003B8298 /* Projekt-IOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3FDA39AF284900F8003B8298 /* Build configuration list for PBXProject "jl_2022_06_02_projekt" */;
+			buildConfigurationList = 3FDA39AF284900F8003B8298 /* Build configuration list for PBXProject "Projekt-IOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -153,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FDA39B3284900F8003B8298 /* jl_2022_06_02_projekt */,
+				3FDA39B3284900F8003B8298 /* Projekt-IOS */,
 			);
 		};
 /* End PBXProject section */
@@ -179,9 +179,9 @@
 				3FAA7216284902A400C78735 /* CreatePlaceView.swift in Sources */,
 				3FAA72142849025000C78735 /* PlaceView.swift in Sources */,
 				3FDA39B8284900F8003B8298 /* AppDelegate.swift in Sources */,
+				DAB677682852042700712A0E /* Projekt-IOS-DB.xcdatamodeld in Sources */,
 				3FAA721828490BBF00C78735 /* PlaceMapView.swift in Sources */,
 				3FDA39CF284901C1003B8298 /* PlacesView.swift in Sources */,
-				3FDA39BD284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodeld in Sources */,
 				3FDA39BF284900F8003B8298 /* ContentView.swift in Sources */,
 				3FDA39BA284900F8003B8298 /* SceneDelegate.swift in Sources */,
 				DAB677652851F08B00712A0E /* Classes.swift in Sources */,
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FDA39AF284900F8003B8298 /* Build configuration list for PBXProject "jl_2022_06_02_projekt" */ = {
+		3FDA39AF284900F8003B8298 /* Build configuration list for PBXProject "Projekt-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FDA39C9284900FA003B8298 /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FDA39CB284900FA003B8298 /* Build configuration list for PBXNativeTarget "jl_2022_06_02_projekt" */ = {
+		3FDA39CB284900FA003B8298 /* Build configuration list for PBXNativeTarget "Projekt-IOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FDA39CC284900FA003B8298 /* Debug */,
@@ -378,13 +378,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3FDA39BB284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodeld */ = {
+		DAB677662852042700712A0E /* Projekt-IOS-DB.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3FDA39BC284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodel */,
+				DAB677672852042700712A0E /* Projekt-IOS-DB.xcdatamodel */,
 			);
-			currentVersion = 3FDA39BC284900F8003B8298 /* jl_2022_06_02_projekt.xcdatamodel */;
-			path = jl_2022_06_02_projekt.xcdatamodeld;
+			currentVersion = DAB677672852042700712A0E /* Projekt-IOS-DB.xcdatamodel */;
+			path = "Projekt-IOS-DB.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
